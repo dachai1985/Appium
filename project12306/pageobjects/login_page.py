@@ -1,6 +1,6 @@
 
 import time
-from Appium.project12306.base.basepage import BasePage
+from project12306.base.basepage import BasePage
 from appium.webdriver.common.appiumby import AppiumBy
 
 class LoginPage(BasePage): #这个类本身没有构造函数，但其父类有构造函数 参数driver

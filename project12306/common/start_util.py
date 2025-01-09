@@ -3,7 +3,7 @@ import logging
 import os
 import sys
 from appium.options.android import UiAutomator2Options
-from Appium.project12306.common.data_util import readyaml
+from project12306.common.data_util import readyaml
 from appium import webdriver
 
 

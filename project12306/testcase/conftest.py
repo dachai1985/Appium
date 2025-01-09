@@ -1,7 +1,7 @@
 
 import sys
 import os
-from Appium.project12306.base.basepage import BasePage
+from project12306.base.basepage import BasePage
 
 print("Loading conftest.py")
 
@@ -12,7 +12,7 @@ print("Loading conftest.py")
 # # 将项目根目录添加到系统路径
 # sys.path.append(os.path.join(current_dir, '..', '..'))
 # print(f"Added to path: {os.path.join(current_dir, '..', '..')}")
-from Appium.project12306.common.start_util import setup
+from project12306.common.start_util import setup
 import pytest
 
 # @pytest.fixture(scope="function", autouse=True)

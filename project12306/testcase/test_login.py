@@ -1,5 +1,5 @@
 import os
-from Appium.project12306.pageobjects.login_page import LoginPage  #加上上面系统路径设定后才可以正常被识别导入
+from project12306.pageobjects.login_page import LoginPage  #加上上面系统路径设定后才可以正常被识别导入
 import pytest
 
 @pytest.mark.usefixtures("setup_teardown")
